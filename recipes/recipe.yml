@@ -37,8 +37,8 @@ modules:
         - com.github.zadam.trilium 
 #        - org.mozilla.firefox
 #        - org.gnome.Loupe
-#      remove:
-#        - org.gnome.eog
+      remove:
+        - org.mozilla.Thunderbird
     user: {} # Also add Flathub user repo, but no user packages
   - type: rpm-ostree
     install:
